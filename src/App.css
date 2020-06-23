@@ -1,38 +1,198 @@
-.App {
-  text-align: center;
+html {
+  font-size: 52%;
+  scroll-behavior: smooth;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.menu {
+  height: 6rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+  padding-right: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: #3895d3;
+  -webkit-box-shadow: 0px 6px 50px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 50px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 50px -8px rgba(0, 0, 0, 0.75);
+}
+a {
   color: white;
+  font-size: 1.8rem;
+}
+#header-slide {
+  width: 100%;
+  -webkit-box-shadow: 0px 6px 50px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 50px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 50px -8px rgba(0, 0, 0, 0.75);
+}
+.carousel {
+  width: 100%;
+}
+.d-block {
+  height: 85rem;
+}
+.carousel-caption {
+  bottom: 30rem;
+  z-index: 0;
+}
+.header-h3 {
+  font-size: 8rem;
+  z-index: 0;
+}
+.header-txt {
+  font-size: 3.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.about {
+  color: block;
+  width: 100%;
+  text-align: center;
+  padding: 13rem 0 10rem 0;
+}
+.about-head {
+  font-size: 3.5rem;
+}
+.about-h {
+  font-size: 2.8rem;
+}
+.about-txt {
+  font-size: 2rem;
+}
+.about-sec {
+  padding: 2rem 15rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.services {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  color: white;
+  text-align: center;
+  background: #3895d3c2;
+  -webkit-box-shadow: 0px 6px 50px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 50px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 50px -8px rgba(0, 0, 0, 0.75);
+}
+.serv-h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.serv-txt2 {
+  font-size: 2.5rem;
+}
+.serv-h4 {
+  font-size: 2.6rem;
+}
+.serv-txt {
+  font-size: 2rem;
+}
+.container {
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+}
+.row {
+  margin: 8rem 0 7rem 0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
+.col {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+}
+.col-content {
+  width: 80%;
+}
+.ser-imgs {
+  width: 100%;
+  height: 30rem;
+  overflow: hidden;
+  margin-bottom: 2.4rem;
+  -webkit-box-shadow: 0px 6px 50px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 50px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 50px -8px rgba(0, 0, 0, 0.75);
+}
+.products {
+  text-align: center;
+  width: 100%;
+  padding-top: 5rem;
+}
+
+.footer {
+  padding: 5rem 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background: #3895d3c2;
+  -webkit-box-shadow: 0px 6px 50px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 50px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 50px -8px rgba(0, 0, 0, 0.75);
+}
+.footer-out {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 81.25em) {
+  html {
+    font-size: 50%;
   }
-  to {
-    transform: rotate(360deg);
+  .ser-imgs {
+    height: 22rem;
+  }
+}
+@media screen and (max-width: 56.25em) {
+  html {
+    font-size: 45%;
+  }
+  .ser-imgs {
+    height: 15rem;
+  }
+  .header-h3 {
+    font-size: 6rem;
+  }
+  .header-txt {
+    font-size: 3rem;
+  }
+  .d-block {
+    height: 65rem;
+  }
+  .carousel-caption {
+    bottom: 15rem;
+  }
+  .about-sec {
+    padding: 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  html {
+    font-size: 40%;
+  }
+  .ser-imgs {
+    height: 10rem;
+  }
+  .header-h3 {
+    font-size: 4rem;
+  }
+  .header-txt {
+    font-size: 2.2rem;
+  }
+  .d-block {
+    height: 45rem;
+  }
+  .about-sec {
+    padding: 0 2rem;
+  }
+  .about {
+    padding: 5rem 0 5rem 0;
+  }
+  .services {
+    padding: 5rem 0 1rem 0;
+  }
+  .serv-txt {
+    padding-bottom: 2rem;
   }
 }
