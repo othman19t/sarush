@@ -16,7 +16,7 @@ const ControlledCarousel = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3 className="header-h3">BUILDERS’ BRIDGE</h3>
+            <h3 className="header-h3">BUILDERS’ CONNECT</h3>
             <p className="header-txt">
               A marketplace for construction services
             </p>
@@ -32,7 +32,7 @@ const ControlledCarousel = () => {
           />
 
           <Carousel.Caption>
-            <h3 className="header-h3 ">BUILDERS’ BRIDGE</h3>
+            <h3 className="header-h3 ">BUILDERS’ CONNECT</h3>
             <p className="header-txt ">
               A marketplace for construction services
             </p>
@@ -47,7 +47,7 @@ const ControlledCarousel = () => {
           />
 
           <Carousel.Caption>
-            <h3 className="header-h3">BUILDERS’ BRIDGE</h3>
+            <h3 className="header-h3">BUILDERS’ CONNECT</h3>
             <p className="header-txt">
               A marketplace for construction services
             </p>

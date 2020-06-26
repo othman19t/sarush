@@ -8,7 +8,7 @@ const About = () => {
       <div className="about-sec">
         <h2 className="about-h">Company History</h2>
         <p className="about-txt">
-          Builders’ Bridge is a tech company established in May 2020. It was
+          Builders’ Connect is a tech company established in May 2020. It was
           started by four friends (the co-owners) who saw the need to create an
           online marketplace that will bridge the gap between construction
           professionals as well as construction service providers and their
@@ -30,7 +30,7 @@ const About = () => {
       <div className="about-sec">
         <h2 className="about-h">Mission</h2>
         <p className="about-txt">
-          Builders’ Bridge seeks to bring construction consumers closer to their
+          Builders’ Connect seeks to bring construction consumers closer to their
           construction needs with unparalleled precision and flexibility, and
           not compromising on quality.
         </p>

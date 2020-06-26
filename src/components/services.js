@@ -6,7 +6,7 @@ const Services = () => {
     <div className="services" id="services">
       <h1 className="serv-h1">Services</h1>
       <h5 className="serv-txt2">
-        Builders’ Bridge is a marketplace that provides highest excellence and
+        Builders’ Connect is a marketplace that provides highest excellence and
         performance services in the field of construction
       </h5>
       <Container>

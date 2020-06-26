@@ -12,7 +12,7 @@ const Footer = () => {
           <p className="serv-txt">
             Address: 5249 Chesham Avenue Burnaby BC V5H 2L1
           </p>
-          <p className="serv-txt">info@buildersbridge.com</p>
+          <p className="serv-txt">info@buildersconnect.com</p>
         </div>
         <div className="footer-in">
           <h4 className="serv-h4"></h4>

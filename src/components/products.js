@@ -10,7 +10,7 @@ const Products = () => {
       <div className="about-sec">
         <h3 className="serv-h4">The Product</h3>
         <p className="serv-txt">
-          Builders’ Bridge will provide an unprecedented service, through a web
+          Builders’ Connect will provide an unprecedented service, through a web
           interface, which links people from different parts of the world who
           have a need for construction services. We will provide services such
           as recommended business listing, email and SMS marketing, banner ads,
